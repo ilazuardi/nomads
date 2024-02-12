@@ -148,3 +148,40 @@ header {
         }
     }
 }
+
+.section-networks {
+    background-color: white;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(white 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+    
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
