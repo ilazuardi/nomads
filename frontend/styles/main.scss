@@ -248,3 +248,26 @@ header {
         color: #071c4d;
     }
 }
+
+.section-details-header {
+    min-height: 310px;
+    background: #e4e6eb;
+    margin-top: -68px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #071c4d;
+
+        }
+    }
+}
